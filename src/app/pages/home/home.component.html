@@ -1,3 +1,18 @@
-<p>
-  home works!
-</p>
+<!-- dashboard.component.html -->
+<div class="dashboard-container">
+  <h1>Moglix datamining dashboard</h1>
+  <div class="map-container">
+    <!-- Your map rendering logic will go here -->
+    <img src="path-to-india-map-image" alt="India Map">
+  </div>
+  <div class="portal-selection">
+    <h2>Select portal to dive in</h2>
+    <div class="portals">
+      <a [routerLink]="['/online-INDIA']"><button class="portal-button">Moglix online-INDIA</button></a>
+      <a [routerLink]="['/online-UAE']"><button class="portal-button">Moglix online-UAE</button></a>
+      <a [routerLink]="['/Zoglix']"><button class="portal-button">Zoglix</button></a>
+      <a [routerLink]="['/Credlix']"><button class="portal-button">Credlix</button></a>
+      <a [routerLink]="['/Enterprise']"><button class="portal-button">Enterprise</button></a>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,44 @@
+/* dashboard.component.scss */
+.dashboard-container {
+    text-align: center;
+  
+    h1 {
+      margin-bottom: 20px;
+    }
+  
+    .map-container {
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      img {
+        width: 80%; // Adjust the width as needed
+      }
+    }
+  
+    .portal-selection {
+      h2 {
+        margin: 20px 0;
+      }
+  
+      .portals {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+  
+        .portal-button {
+          background-color: #000;
+          color: #fff;
+          border: none;
+          padding: 10px 20px;
+          margin: 5px;
+          cursor: pointer;
+          transition: background-color 0.3s;
+  
+          &:hover {
+            background-color: darken(#000, 10%);
+          }
+        }
+      }
+    }
+  }
